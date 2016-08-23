@@ -10,7 +10,6 @@ classdef DeepFool < handle
     overshoot
     max_iterations
     norm_p
-    epsilon
   end % properties
 
   methods
@@ -68,11 +67,7 @@ classdef DeepFool < handle
       else
         otps.norm_p = self.norm_p;
       end
-      if isfield(opts, 'epsilon')
-        self.epsilon = opts.epsilon;
-      else
-        opts.epsilon = self.epsilon;
-      end
+
 
       caffe_('set_deepfool_parameters', self.hDeepFool_self, opts);
     end
@@ -85,7 +80,6 @@ classdef DeepFool < handle
       self.max_iterations = opts.max_iterations;
       self.overshoot = opts.overshoot;
       self.norm_p = opts.norm_p;
-      self.epsilon = opts.epsilon;
     end
   end % methods
 end % classdef
