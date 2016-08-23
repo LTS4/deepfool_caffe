@@ -3,7 +3,7 @@
 # to the necessary caffe directory; please specify the current
 # caffe directory
 
-CAFFE_PATH=~/test_my_commit/caffe #/path/to/caffe
+CAFFE_PATH=/path/to/caffe
 cp src/caffe_.cpp $CAFFE_PATH/matlab/+caffe/private
 cp src/classifier.cpp $CAFFE_PATH/src/caffe/util
 cp src/classifier.hpp $CAFFE_PATH/include/caffe/util
