@@ -26,3 +26,5 @@ perturbations = df.adversarial_perturbations(a);
 ```
 
 You can also see the `deepfool_example.m` as an example of how to use the tool.
+
+*The code is under development. Also it not properly cleaned and documented. Additional documentation and fixes are comming soon.*
