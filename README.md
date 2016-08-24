@@ -1,7 +1,5 @@
 # deepfool_caffe
 
-# deepfool_caffe
-
 This repository contains a C++ implementation of the [DeepFool algorithm](http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Moosavi-Dezfooli_DeepFool_A_Simple_CVPR_2016_paper.html) by Moosavi-Dezfooli, Fawzi, Frossard. The implementation is based on the [Caffe](https://github.com/BVLC/caffe) deep learning framework and it provides a MATLAB API.
 
 To use the algorithm you need to:
